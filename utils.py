@@ -20,3 +20,8 @@ def divide(a: float, b: float) -> float:
     if b == 0:
         raise ValueError("На ноль делить нельзя!")
     return a / b
+def modulo(a: float, b: float) -> float:
+    """Возвращает остаток от деления a на b."""
+    if b == 0:
+        raise ValueError("На ноль делить нельзя!")
+    return a % b
