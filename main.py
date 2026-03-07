@@ -21,7 +21,11 @@ def main():
         print(f"{a} / {b} = {utils.divide(a, b)}")
     except ValueError as e:
         print(f"Ошибка: {e}")
-
+    # Остаток от деления
+    try:
+        print(f"{a} % {b} = {utils.modulo(a, b)}")
+    except ValueError as e:
+        print(f"Ошибка: {e}")
  
 if __name__ == "__main__":
     main()
