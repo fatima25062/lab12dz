@@ -11,3 +11,9 @@ def subtract(a: float, b: float) -> float:
 def to_uppercase(text: str) -> str:
     """Переводит текст в верхний регистр."""
     return text.upper()
+
+def divide(a: float, b: float) -> float:
+    """Делит два числа. Возвращает ошибку при делении на ноль."""
+    if b == 0:
+        raise ValueError("На ноль делить нельзя!")
+    return a / b

@@ -15,6 +15,13 @@ def main():
     
     text = "hello world"
     print(f"Текст в верхнем регистре: {utils.to_uppercase(text)}")
+
+    # Деление
+    try:
+        print(f"{a} / {b} = {utils.divide(a, b)}")
+    except ValueError as e:
+        print(f"Ошибка: {e}")
+
  
 if __name__ == "__main__":
     main()
