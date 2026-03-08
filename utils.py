@@ -11,3 +11,7 @@ def subtract(a: float, b: float) -> float:
 def to_uppercase(text: str) -> str:
     """Переводит текст в верхний регистр."""
     return text.upper()
+
+def power(a: float, b: float) -> float:
+    """Возводит a в степень b."""
+    return a ** b
