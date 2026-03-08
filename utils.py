@@ -12,6 +12,9 @@ def to_uppercase(text: str) -> str:
     """Переводит текст в верхний регистр."""
     return text.upper()
 
+def power(a: float, b: float) -> float:
+    """Возводит a в степень b."""
+    return a ** b
 def divide(a: float, b: float) -> float:
     """Делит два числа. Возвращает ошибку при делении на ноль."""
     if b == 0:
