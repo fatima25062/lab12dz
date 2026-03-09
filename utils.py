@@ -25,3 +25,8 @@ def average(numbers: list) -> float:
     if not numbers:
         return 0
     return sum(numbers) / len(numbers)
+def modulo(a: float, b: float) -> float:
+    """Возвращает остаток от деления a на b."""
+    if b == 0:
+        raise ValueError("На ноль делить нельзя!")
+    return a % b
