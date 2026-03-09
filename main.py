@@ -24,4 +24,7 @@ def main():
 
  
 if __name__ == "__main__":
+    # Среднее арифметическое
+    numbers = [10, 20, 30, 40, 50]
+    print(f"Среднее арифметическое {numbers} = {utils.average(numbers)}")
     main()
