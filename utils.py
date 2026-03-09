@@ -20,3 +20,8 @@ def divide(a: float, b: float) -> float:
     if b == 0:
         raise ValueError("На ноль делить нельзя!")
     return a / b
+def average(numbers: list) -> float:
+    """Возвращает среднее арифметическое списка чисел."""
+    if not numbers:
+        return 0
+    return sum(numbers) / len(numbers)
